@@ -1,0 +1,47 @@
+.overlay {
+  height: calc(100vh - 100px);
+}
+
+nav {
+  width: 100%;
+  padding: 32px 42px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  
+  transition: all 0;
+}
+
+.nav-fixed {
+  background-color: #6233EA;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+}
+
+.links > a {
+  display: flex;
+
+  padding: 4px 4.5px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section.s1 { background: #361779; }
+section.s2 { background: #4C25B2; }
+section.s3 { background: #6233EA; }
